@@ -1,3 +1,5 @@
+mod init_var;
+
 fn main() {
-    println!("Hello, world!");
+    init_var::init_var()
 }
