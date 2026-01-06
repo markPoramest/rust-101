@@ -22,4 +22,11 @@ pub fn init_var() {
 
     println!("{}", CON_NUMBER);
     println!("{}", GLOBAL_STR);
+
+    // Suffix
+    let number64 = 1223_i64; // integer 64
+    let float64 = 1463_f64; // float 64
+
+    println!("{}", number64);
+    println!("{}", float64);
 }
