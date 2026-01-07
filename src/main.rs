@@ -4,6 +4,8 @@ mod init_var;
 mod dt_structure;
 mod strings;
 mod stdio;
+mod ifelse;
+mod loops;
 
 fn main() {
     // init_var::init_var();
@@ -11,5 +13,7 @@ fn main() {
     // dt_structure::arr();
     // dt_structure::slice()
     // strings::strings();
-    stdio::stdio();
+    // stdio::stdio();
+    // ifelse::ifelse()
+    loops::loops();
 }
