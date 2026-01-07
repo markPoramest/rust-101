@@ -6,6 +6,7 @@ mod strings;
 mod stdio;
 mod ifelse;
 mod loops;
+mod ownership;
 
 fn main() {
     // init_var::init_var();
@@ -15,5 +16,6 @@ fn main() {
     // strings::strings();
     // stdio::stdio();
     // ifelse::ifelse()
-    loops::loops();
+    // loops::loops();
+    ownership::ownershio();
 }
