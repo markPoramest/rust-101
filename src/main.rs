@@ -8,6 +8,7 @@ mod ifelse;
 mod loops;
 mod ownership;
 mod option;
+mod vec;
 
 fn main() {
     // init_var::init_var();
@@ -19,5 +20,6 @@ fn main() {
     // ifelse::ifelse()
     // loops::loops();
     // ownership::ownershio();
-    option::option();
+    // option::option();
+    vec::vec()
 }
